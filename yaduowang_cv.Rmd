@@ -1,0 +1,93 @@
+---
+title: "My CV website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Yaduo Wang's Resume
+
+## Resume
+
+EDUCATION
+
+
+Columbia University, Irving Medical Center    
+
+New York, NY United States
+
+Master of Science in Biostatistics
+
+September 2023-Present
+
+
+University of California, Santa Barbara   
+
+Santa Barbara, CA United States
+
+Bachelor of Science in Psychological & Brain Sciences
+
+Minor in statistics
+
+GPA: 3.89/4.00
+
+September 2019–March 2023
+
+
+Honors/Awards: Dean’s Honors Program
+
+
+PROFESSIONAL EXPERIENCE
+
+
+Tesla, Inc. 
+
+
+Beijing, China 
+Marketing Data Analyst Intern 
+Nov 2020 - Jan 2021 
+*•* Assist in the daily operation and maintenance of social media accounts, including identifying and connecting with potential influencers for social media advertising campaigns.
+*•* Run analysis and data visualization in R to assess the impact of promotional activities.
+*•* Write weekly reports, establish effective operations to improve user activity, and assist with offline activities.
+
+ByteDance Ltd. 
+
+
+Beijing, China 
+Education Product Intern in Mathematics 
+July 2020-Nov 2020 
+*•* Collaborate as member of the education app design team to help students access instructional materials and curricular support in K–12 mathematics.
+*•* Establish K-12 math knowledge bases and optimize the classification scheme used to sort user-generated queries related to math topics, comparing researchers' content categories with volunteers' responses.
+*•* Apply Excel techniques to organize and visualize volunteers’ sorting behaviors.
+*•* Help train and oversee incoming interns on Product Team.
+
+
+RESEARCH EXPERIENCE
+
+
+Vision and Image Understanding Lab 
+
+
+Santa Barbara, CA, United States 
+Research Assistant | Lab director: Prof. Miguel Eckstein 
+June 2021-Present 
+*•* Compute heatmap for data visualization, and conduct t test for fixation “consistency,” using MATLAB.
+*•* Assist with data collection and research analyses on the effect of a simulated scotoma on rapid scene understanding.
+*•* Receive training in natural language processing frameworks (BERT) to interpret study participants' verbal descriptions of scenes.
+*•* Learn to produce data visualization of participants' eye movement, using GazeAlyze in MATLAB.
+*•* Train and evaluate new RAs in basic Python.
+
+Yu Emotion Science Lab 
+
+
+Santa Barbara, CA United States 
+Research Assistant | Lab director: Prof. Hongbo Yu 
+June 2022-Present
+*•* Assist with data collection in social expectation research.
+*•* Study how emotion and morality integrate in the brain through a combination of behavioral experiments, neuroscience techniques, and computational modeling.
+*•* Help design interactive tasks to elicit emotions in real social settings.
+
+
+ 
