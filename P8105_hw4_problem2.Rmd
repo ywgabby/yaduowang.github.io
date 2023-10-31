@@ -1,0 +1,64 @@
+---
+title: "P8105_hw4_problem2"
+author: "Yaduo Wang"
+date: "2023-10-31"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+instacart = 
+  instacart |> 
+  as_tibble()
+sampled_data = instacart |> 
+  sample_n(1000)
+```
+
+## Plot 1: Order Frequency by Hour of Day
+
+```{r}
+sampled_data |> 
+  mutate(product_name = fct_reorder(product_name, order_hour_of_day)) |> 
+  plot_ly(y = ~order_hour_of_day, color = ~product_name, type = "box", colors = "viridis")
+```
+
+```{r}
+sampled_data |> 
+  group_by(order_hour_of_day) |> 
+  mutate(count = n()) |> 
+  mutate(text_label = str_c("Product name: ", product_name)) |> 
+  plot_ly(x = ~order_hour_of_day, y = ~count, type = "line",
+    color = ~aisle, text = ~text_label, colors = "viridis") 
+
+```
+
+## Plot 2: Order Frequency by Department
+```{r}
+sampled_data |> 
+  group_by(department) |> 
+  mutate(count = n()) |> 
+  select(department, count, aisle, product_name) |> 
+  filter(count>=100) |> 
+    mutate(text_label = str_c("Product name: ", product_name)) |> 
+  plot_ly(x = ~department, y = ~ count, color = ~aisle, type = "bar", colors = "viridis", text = ~text_label)|> 
+  layout(title = "Order Frequency by Department",
+         xaxis = list(title = "Department name"),
+         yaxis = list(title = "Order Count"))
+```
+
+## Plot 3: Scatter plot
+```{r}
+sampled_data |> 
+  group_by(aisle) |> 
+  mutate(mean_order_hour_of_day = mean(order_hour_of_day), 
+         mean_days_since_prior_order = mean(days_since_prior_order)) |> 
+   mutate(text_label = str_c("Product name: ", product_name)) |> 
+  plot_ly(
+    x = ~mean_order_hour_of_day, y = ~mean_days_since_prior_order, type = "scatter", mode = "markers",
+    color = ~aisle, text = ~text_label, alpha = 0.5)
+  
+```
+
