@@ -13,7 +13,7 @@ output:
 ### EDUCATION
 
 
-Columbia University, Irving Medical Center    
+#### Columbia University, Irving Medical Center    
 
 New York, NY United States
 
@@ -22,7 +22,7 @@ Master of Science in Biostatistics
 September 2023-Present
 
 
-University of California, Santa Barbara   
+#### University of California, Santa Barbara   
 
 Santa Barbara, CA United States
 
@@ -41,7 +41,7 @@ Honors/Awards: Dean’s Honors Program
 ### PROFESSIONAL EXPERIENCE
 
 
-Tesla, Inc. 
+#### Tesla, Inc. 
 
 
 Beijing, China 
@@ -51,7 +51,8 @@ Nov 2020 - Jan 2021
 *•* Run analysis and data visualization in R to assess the impact of promotional activities.
 *•* Write weekly reports, establish effective operations to improve user activity, and assist with offline activities.
 
-ByteDance Ltd. 
+
+#### ByteDance Ltd. 
 
 
 Beijing, China 
@@ -66,7 +67,7 @@ July 2020-Nov 2020
 ### RESEARCH EXPERIENCE
 
 
-Vision and Image Understanding Lab 
+#### Vision and Image Understanding Lab 
 
 
 Santa Barbara, CA, United States 
@@ -78,7 +79,8 @@ June 2021-Present
 *•* Learn to produce data visualization of participants' eye movement, using GazeAlyze in MATLAB.
 *•* Train and evaluate new RAs in basic Python.
 
-Yu Emotion Science Lab 
+
+#### Yu Emotion Science Lab 
 
 
 Santa Barbara, CA United States 
