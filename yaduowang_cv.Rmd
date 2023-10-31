@@ -4,14 +4,13 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # This is Yaduo Wang's Resume
 
 ## Resume
 
-EDUCATION
+### EDUCATION
 
 
 Columbia University, Irving Medical Center    
@@ -39,7 +38,7 @@ September 2019–March 2023
 Honors/Awards: Dean’s Honors Program
 
 
-PROFESSIONAL EXPERIENCE
+### PROFESSIONAL EXPERIENCE
 
 
 Tesla, Inc. 
@@ -64,7 +63,7 @@ July 2020-Nov 2020
 *•* Help train and oversee incoming interns on Product Team.
 
 
-RESEARCH EXPERIENCE
+### RESEARCH EXPERIENCE
 
 
 Vision and Image Understanding Lab 
