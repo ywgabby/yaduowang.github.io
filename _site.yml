@@ -1,11 +1,11 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Home" 
   right:
-    - text: "P8105_hw4_problem2"
+    - text: "HW4 Problem2"
       href: P8105_hw4_problem2.html
-    - text: "hw4_dashboard"
+    - text: "Dashboard"
       href: hw4_dashboard.html
     - text: "Yaduo Wang CV"
       href: yaduowang_cv.html
