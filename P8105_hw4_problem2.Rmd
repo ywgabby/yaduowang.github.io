@@ -20,20 +20,11 @@ sampled_data = instacart |>
 ## Plot 1: Order Frequency by Hour of Day
 
 ```{r}
-sampled_data |> 
-  mutate(product_name = fct_reorder(product_name, order_hour_of_day)) |> 
-  plot_ly(y = ~order_hour_of_day, color = ~product_name, type = "box", colors = "viridis")
+instacart |> 
+  filter(department == "meat seafood")|> 
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis")
 ```
 
-```{r}
-sampled_data |> 
-  group_by(order_hour_of_day) |> 
-  mutate(count = n()) |> 
-  mutate(text_label = str_c("Product name: ", product_name)) |> 
-  plot_ly(x = ~order_hour_of_day, y = ~count, type = "line",
-    color = ~aisle, text = ~text_label, colors = "viridis") 
-
-```
 
 ## Plot 2: Order Frequency by Department
 ```{r}
@@ -58,7 +49,10 @@ sampled_data |>
    mutate(text_label = str_c("Product name: ", product_name)) |> 
   plot_ly(
     x = ~mean_order_hour_of_day, y = ~mean_days_since_prior_order, type = "scatter", mode = "markers",
-    color = ~aisle, text = ~text_label, alpha = 0.5)
+    color = ~aisle, text = ~text_label, alpha = 0.5)|> 
+  layout(title = "Mean of Order Hour by Mean of Days Since Prior Order",
+         xaxis = list(title = "Mean of Order Hour"),
+         yaxis = list(title = "Mean of Days Since Prior Order"))
   
 ```
 
