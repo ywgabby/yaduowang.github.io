@@ -1,7 +1,7 @@
-name: "Yay internet!"
+name: "Yaduo Wang"
 output_dir: "."
 navbar:
-  title: "Home" 
+  title: "Home"
   right:
     - text: "HW4 Problem2"
       href: P8105_hw4_problem2.html
@@ -16,3 +16,4 @@ navbar:
 output:
   html_document:
     theme: cerulean
+    

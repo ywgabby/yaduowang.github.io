@@ -4,6 +4,10 @@ output:
   html_document:
     toc: true
     toc_float: true
+    theme: cerulean
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 # This is Yaduo Wang's website
