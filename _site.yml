@@ -8,7 +8,7 @@ navbar:
     - text: "Dashboard"
       href: hw4_dashboard.html
     - text: "Yaduo Wang CV"
-      href: yaduowang_cv.html
+      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<yw4199@cumc.columbia.edu>
     - icon: fa-github fa-lg
